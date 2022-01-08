@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <div id="data">
+
+    </div>
+
+    <script>
+        let variable = 23;
+        // for (i = 1; i <= variable; i++) {
+        //     if (i % 2 == 0) {
+        //         console.log("even = " + i);
+        //     }
+        // }
+
+        // i=1;
+        // while(i<=variable){
+        //     if (i % 2 == 0) {
+        //         console.log("even = " + i);
+        //     }
+        //     i++;
+        // }
+
+        // for (i = 2; i <= variable; i+=2) {
+        //     console.log("even = " + i);
+        // }
+
+        for (i = 1; i <= variable; i+=2) {
+            let myHtml = document.getElementById("data");
+            myHtml.innerHTML = myHtml.innerHTML + "Hang" + i + "<br>";
+        }
+
+
+    </script>
+</body>
+
+</html>
